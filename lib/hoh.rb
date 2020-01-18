@@ -54,7 +54,8 @@ def naming_system
               sub_category: {
                 label: "Genus",
                 sub_category: {
-                  
+                   label: "Species",
+                    sub_category: nil
                 }
               }
             }
@@ -63,11 +64,5 @@ def naming_system
       }
     }
     
-  
-    
-    PORTION_4 = {
-      label: "Species",
-      sub_category: nil
-    }
-  }
+  return hoh
 end
